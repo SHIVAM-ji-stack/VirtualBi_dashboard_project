@@ -73,7 +73,7 @@ function takeCommand(message){
     else if(message.includes("reminder")){
         speak("Sure! what would you like to be reminded of and when?")
     }
-    else if(message.includes("Improve my productivity")){
+    else if(message.includes("improve my productivity")){
         speak("Here are a few tips to improve productivity:break tasks into smaller steps\n prioritize important tasks\n take regular breaks to stay focused\n use a to do list or time management apps")
     }
     else if(message.includes("news")){
