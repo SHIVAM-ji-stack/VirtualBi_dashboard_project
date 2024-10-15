@@ -82,6 +82,10 @@ function takeCommand(message){
     else if(message.includes("news")){
         speak("i can look up the latest news for you. is there a specific topic you'd like to know about?")
     }    
+    else if(message.includes("snapchat")){
+        speak("Opening Snapchat")
+        window.open("https://www.snapchat.com/")
+    }
     else{
         speak("Sorry i didn't get that please try later")
     }
