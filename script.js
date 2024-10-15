@@ -67,6 +67,18 @@ function takeCommand(message){
     else if(message.includes("launch")){
         speak("I am under development I will be launched soon thanks for showing interest in me")
     }
+    else if(message.includes("weather")){
+        speak("To check the weather,I need to know your location. Could you share it with me?")
+    }
+    else if(message.includes("reminder")){
+        speak("Sure! what would you like to be reminded of and when?")
+    }
+    else if(message.includes("Improve my productivity")){
+        speak("Here are a few tips to improve productivity:break tasks into smaller steps\n prioritize important tasks\n take regular breaks to stay focused\n use a to do list or time management apps")
+    }
+    else if(message.includes("news")){
+        speak("i can look up the latest news for you. is there a specific topic you'd like to know about?")
+    }
     else{
         speak("Sorry i didn't get that please try later")
     }
