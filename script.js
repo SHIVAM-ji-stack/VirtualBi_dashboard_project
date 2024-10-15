@@ -47,6 +47,9 @@ function takeCommand(message){
     else if(message.includes("who are you")){
         speak("i am virtual assistant ,created by Shivam Mishra")
     }
+    else if(message.includes("how are you")){
+        speak("I am fine hope same from you")
+    }
     else if(message.includes("open youtube")){
         speak("Opening Youtube")
         window.open("https://www.youtube.com/")
@@ -78,7 +81,7 @@ function takeCommand(message){
     }
     else if(message.includes("news")){
         speak("i can look up the latest news for you. is there a specific topic you'd like to know about?")
-    }
+    }    
     else{
         speak("Sorry i didn't get that please try later")
     }
