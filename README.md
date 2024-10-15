@@ -1,2 +1,2 @@
-# VirtualBi_dashboard_project
-This is a Virtual Bi end to end project
+# VirtualAi_dashboard_project
+This is a Virtual Ai end to end project
