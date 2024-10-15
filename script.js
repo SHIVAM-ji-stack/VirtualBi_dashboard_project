@@ -47,12 +47,6 @@ function takeCommand(message){
     else if(message.includes("who are you")){
         speak("i am virtual assistant ,created by Shivam Mishra")
     }
-    else if(message.includes("elder brother")){
-        speak("Shivam Mishra brother is Harsh Mishra")
-    }
-    else if(message.includes("younger brother")){
-        speak("Shivam Mishra younger brother is Sumit Bedwal")
-    }
     else if(message.includes("open youtube")){
         speak("Opening Youtube")
         window.open("https://www.youtube.com/")
@@ -60,6 +54,18 @@ function takeCommand(message){
     else if(message.includes("gmail")){
         speak("Opening Gmail")
         window.open("https://mail.google.com/")
+    }
+    else if(message.includes("Baba Minerals")){
+        speak("Baba Minerals is in Tendua and the owner iS Sonal Mishra")
+    }
+    else if(message.includes("punjab technical university")){
+        speak("I.K.GUJRAL Punjab Technical University is in Kapurthala and it is State Public University of Punjab")
+    }
+    else if(message.includes("roommates")){
+        speak("Roommates of Shivam Mishra are Tanishk,Tanishq,Maneshwar")
+    }
+    else if(message.includes("launch")){
+        speak("I am under development I will be launched soon thanks for showing interest in me")
     }
     else{
         speak("Sorry i didn't get that please try later")
